@@ -1,0 +1,65 @@
+<h5 style="text-align: center;" id="theory" id="theory">Theory</h5>
+
+<p>Did you ever wonder whether it's possible to make your output colorful? The answer is yes, with the <a target="_blank" target="_blank" href="https://pypi.org/project/colorama/" rel="noopener noreferrer nofollow">Colorama</a> library allowing you to color the text in the terminal. The coloring is performed through special escape sequence characters and is visible to the users of MS Windows. For example, to print a red text, all you need is to do this:</p>
+
+<pre><code class="language-python">from colorama import Fore
+print(Fore.RED + 'red text')</code></pre>
+
+<p><code class="language-python">Fore</code> stands for the color of the text (as opposed to the color of the background, for example). <code class="language-python">Fore.RED</code> adds a special escape sequence to the beginning of the string that allows to highlight it with red. Check out the documentation to see more.</p>
+
+<p>Colorama is already installed in the project so you can feel free to use it.</p>
+
+<h5 style="text-align: center;" id="description" id="description">Description</h5>
+
+<p>It’s not enough just to drop the tags. You also need to make your output legible. After all, we would like to have a user-friendly browser, right? In this stage, try to make your browser look more like a browser.</p>
+
+<p>Almost every website contains links. Have you ever wondered why blue was chosen to highlight them?</p>
+
+<p>One of the reasons lies in the physiology of the human eye. Red and green are detected by the same cells in the eye, and one of the most common forms of colorblindness is red-green colorblindness. It affects 7% of men and only 0.4% of women but combined that’s still an average of 1 in every 25 people overall. Nearly everyone can see blue, or, more accurately, almost everyone can distinguish blue as a color different from others.</p>
+
+<p>Also, blue is the darkest color that does not reduce the readability of the text.</p>
+
+<h5 style="text-align: center;" id="objectives" id="objectives">Objectives</h5>
+
+<p>Keep the functionality from the previous stages, but now make all links in your browser blue. </p>
+
+<p>Each link should start with a new line and be highlighted with blue color. </p>
+
+<p>Don't forget that the rest of the page's text should be printed too (but should not be highlighted). </p>
+
+<h5 style="text-align: center;" id="example" id="example">Example</h5>
+
+<p>The greater-than symbol followed by a space (<code class="language-python">&gt; </code>) represents the user input. Note that it's not part of the input</p>
+
+<p><br>
+<samp>&gt; https://docs.python.org <br>
+<span style="color: #3366ff;">index</span><br>
+<span style="color: #3366ff;">modules   </span>    <br>
+Python       <br>
+Documentation            <br>
+Python 3.7.4 documentation<br>
+Welcome! This is the documentation for Python 3.7.4.<br>
+Parts of the documentation:<br>
+<span style="color: #3366ff;">What's new in Python 3.7?</span> or <span style="color: #3366ff;">all "What's new" documents since 2.0</span><br>
+<span style="color: #3366ff;">Tutorial </span>start here<br>
+<span style="color: #3366ff;">Library Reference</span> keep this under your pillow<br>
+<span style="color: #3366ff;">Language Reference</span> describes syntax and language elements<br>
+<span style="color: #3366ff;">Python Setup and Usage</span> how to use Python on different platforms<br>
+<span style="color: #3366ff;">Python HOWTOs</span> in-depth documents on specific topics<br>
+<span style="color: #3366ff;">Installing Python Modules</span> installing from the Python Package Index &amp; other sources<br>
+<span style="color: #3366ff;">Distributing Python Modules</span> publishing modules for installation by others<br>
+<span style="color: #3366ff;">Extending and Embedding</span> tutorial for C/C++ programmers<br>
+<span style="color: #3366ff;">Python/C API</span> reference for C/C++ programmers<br>
+<span style="color: #3366ff;">FAQs</span> frequently asked questions (with answers!)<br>
+Indices and tables:<br>
+<span style="color: #3366ff;">Global Module Index</span> quick access to all modules<br>
+<span style="color: #3366ff;">General Index</span> all functions, classes, terms<br>
+<span style="color: #3366ff;">Glossary</span> the most important terms explained<br>
+<span style="color: #3366ff;">Search page</span> search this documentation<br>
+<span style="color: #3366ff;">Complete Table of Contents</span> lists all sections and subsections<br>
+Meta information:<br>
+<span style="color: #3366ff;">Reporting bugs<br>
+About the documentation<br>
+History and License of Python<br>
+Copyright</span><br>
+&gt; exit</samp></p>
